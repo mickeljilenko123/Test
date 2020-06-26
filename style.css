@@ -1,11 +1,9 @@
-p {
-    color: green;
+div {
+    display: inline-block;
 }
 
-li {
-    color: orange;
-}
-
-main {
-    font-size: 24px;
+span {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
 }
