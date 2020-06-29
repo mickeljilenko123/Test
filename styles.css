@@ -2,19 +2,15 @@
     background-color: darkturquoise;
     height: 40px;
     position: fixed;
-    top: 0;
     width: 100%;
     z-index: 1;
 }
 
 .nav-item {
     height: 40px;
-    float: left;
     color: white;
+    display: inline-block;
     margin-left: 16px;
-    display: inline;
-    position: relative;
-    bottom: 5px;
 }
 
 .content {
