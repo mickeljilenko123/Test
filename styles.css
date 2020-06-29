@@ -1,29 +1,70 @@
-.div {
+.header {
+    background-color: darkturquoise;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-item {
+    height: 40px;
+    display: inline-block;
+    color: white;
+    margin-left: 16px;
+    position: relative;
+    bottom: 5px;
+}
+
+.content {
+    height: 5000px;
+    background-color: beige;
+}
+
+.head {
+    width: 200px;
     height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.ear {
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+    position: relative;
+    bottom: 60px;
     float: left;
 }
 
-.block_red {
-    background-color: red;
-    width: 20%;
+.eye {
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    float: left;
+    position: relative;
+    top: 80px;
 }
 
-.block_green {
-    background-color: green;
-    width: 20%;
+.ear_right {
+    position: relative;
+    right: 40px;
 }
 
-.block_blue {
-    background-color: blue;
-    width: 20%;
+.ear_left {
+    position: relative;
+    left: 160px;
 }
 
-.block_yellow {
-    background-color: yellow;
-    width: 20%;
+.eye_right {
+    position: relative;
+    right: 40px;
 }
 
-.block_black {
-    background-color: black;
-    width: 20%;
+.eye_left {
+    position: relative;
+    left: 20px;
 }
