@@ -5,15 +5,13 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    margin-top: 10px;
 }
 
 .nav-item {
     height: 40px;
-    float: left;
     color: white;
     margin-left: 16px;
-    display: inline;
+    display: inline-block;
     position: relative;
     bottom: 5px;
 }
