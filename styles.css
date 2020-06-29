@@ -20,6 +20,7 @@
 .content {
     height: 5000px;
     background-color: beige;
+    clear: both;
 }
 
 .head {
