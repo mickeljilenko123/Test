@@ -1,64 +1,24 @@
-div {
-    padding: 16px;
+.header {
+    height: 50px;
+    background-color: yellow;
 }
 
-.child,
-.parent {
-    border: 2px solid black;
+.footer {
+    height: 50px;
+    background-color: green;
+    clear: both;
 }
 
-.child {
-    position: absolute;
-    top: 90px;
-    right: 40px;
-}
-
-.parent {
-    width: 300px;
-    height: 100px;
-    background-color: yellowgreen;
-}
-
-.child {
-    background: yellow;
-    position: absolute;
-}
-
-.tip {
-    opacity: 1;
-    background-color: whitesmoke;
-    padding: 0 8px;
-}
-
-.green {
-    width: 100px;
-    height: 100px;
-    background: green;
+.content {
+    width: 80%;
+    background-color: pink;
+    height: 500px;
     float: left;
 }
 
-.container {
-    height: 2000px;
-}
-
-.static-parent {
-    position: static;
-}
-
-.relative-parent {
-    position: relative;
-    top: 20px;
-    left: 50px;
-}
-
-.absolute-parent {
-    position: absolute;
-    left: 20px;
-    right: 50px;
-}
-
-.fixed-parent {
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
+.sidebar {
+    width: 20%;
+    background-color: gray;
+    height: 500px;
+    float: left;
 }
