@@ -11,6 +11,8 @@
     color: white;
     display: inline-block;
     margin-left: 16px;
+    position: relative;
+    bottom: 7px;
 }
 
 .content {
