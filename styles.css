@@ -13,6 +13,7 @@
     height: 40px;
     position: relative;
     bottom: 16px;
+    float: left;
 }
 
 .nav-list {
