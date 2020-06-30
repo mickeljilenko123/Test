@@ -14,8 +14,7 @@
 .nav-item {
     height: 40px;
     color: white;
-    float: left;
-    display: inline;
+    display: inline-block;
     margin-left: 16px;
     position: relative;
     bottom: 5px;
