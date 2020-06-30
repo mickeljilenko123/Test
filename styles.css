@@ -11,7 +11,7 @@
     height: 40px;
     color: white;
     float: left;
-    display: inline-block;
+    display: inline;
     margin-left: 16px;
     line-height: 5px;
 }
