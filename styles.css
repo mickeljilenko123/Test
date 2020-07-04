@@ -1,31 +1,23 @@
-.block {
-    height: 300px;
-    width: 300px;
-    /* flex-shrink: 0;
-    flex-grow: 1; */
+* {
+    box-sizing: border-box;
 }
 
-.container {
+.header {
     display: flex;
-    /* flex-wrap: wrap; */
+    justify-content: center;
 }
 
-.block_red {
-    background-color: red;
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    width: 100%;
 }
 
-.block_green {
-    background-color: green;
-}
-
-.block_blue {
-    background-color: blue;
-}
-
-.block_yellow {
-    background-color: yellow;
-}
-
-.block_black {
-    background-color: black;
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-width: 300px;
 }
