@@ -1,10 +1,12 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .header {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .article {
@@ -19,4 +21,6 @@
 .articles-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
