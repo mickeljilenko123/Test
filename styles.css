@@ -11,13 +11,12 @@
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    width: 100%;
+    width: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    min-width: 300px;
 }
