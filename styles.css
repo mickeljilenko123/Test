@@ -1,2 +1,31 @@
+.block {
+    height: 300px;
+    width: 300px;
+    /* flex-shrink: 0;
+    flex-grow: 1; */
+}
 
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
 
+.block_red {
+    background-color: red;
+}
+
+.block_green {
+    background-color: green;
+}
+
+.block_blue {
+    background-color: blue;
+}
+
+.block_yellow {
+    background-color: yellow;
+}
+
+.block_black {
+    background-color: black;
+}
